@@ -37,7 +37,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
-              <img src="/src/assets/1000098173-removebg-preview.png" alt="Trendymates Award Logo" className="h-12 w-auto filter brightness-0 invert" />
+              <img src="/public/1000098173-removebg-preview.png" alt="Trendymates Award Logo" className="h-12 w-auto filter brightness-0 invert" />
             </div>
             <div className="hidden md:flex items-center space-x-4">
     <Link to="/login"       className=" block text-center py-2.5 px-4 border border-white/20 rounded-lg text-white backdrop-blur hover:bg-white/10 transition-all duration-300"
@@ -99,7 +99,7 @@ export default function Home() {
           </div>
           <div className="order-1 lg:order-2 flex justify-center">
             <div className="relative">
-              <img src="/src/assets/IMG-20250625-WA0060(1).jpg" alt="Trendymates Award 2025 Flyer" className="max-w-full h-auto rounded-2xl shadow-2xl shadow-red-500/30 border border-white/10 hover:scale-105 transition-transform duration-500" />
+              <img src="/public/IMG-20250625-WA0060(1).jpg" alt="Trendymates Award 2025 Flyer" className="max-w-full h-auto rounded-2xl shadow-2xl shadow-red-500/30 border border-white/10 hover:scale-105 transition-transform duration-500" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-2xl" />
             </div>
           </div>
@@ -142,7 +142,7 @@ export default function Home() {
             
             <div className="order-1 lg:order-2 flex justify-center">
               <div className="relative">
-                <img src="/src/assets/IMG-20250613-WA0071.jpg" alt="About Trendymates Award" className="max-w-full h-auto rounded-2xl shadow-2xl shadow-red-500/20 border border-white/10 hover:scale-105 transition-transform duration-500" />
+                <img src="/public/IMG-20250613-WA0071.jpg" alt="About Trendymates Award" className="max-w-full h-auto rounded-2xl shadow-2xl shadow-red-500/20 border border-white/10 hover:scale-105 transition-transform duration-500" />
               </div>
             </div>
           </div>
@@ -163,7 +163,7 @@ export default function Home() {
 
           <div className="grid lg:grid-cols-2 gap-16 items-center mb-16">
             <div className="flex justify-center">
-              <img src="/src/assets/IMG-20250613-WA0072.jpg" alt="Nomination Categories" className="max-w-full h-auto rounded-2xl shadow-2xl shadow-amber-500/20 border border-white/10 hover:scale-105 transition-transform duration-500" />
+              <img src="/public/IMG-20250613-WA0072.jpg" alt="Nomination Categories" className="max-w-full h-auto rounded-2xl shadow-2xl shadow-amber-500/20 border border-white/10 hover:scale-105 transition-transform duration-500" />
             </div>
             
             <section className="bg-black/40 backdrop-blur-md border border-white/10 p-8 rounded-2xl shadow-2xl">
@@ -210,7 +210,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center mb-4 md:mb-0">
-              <img src="/src/assets/1000098173-removebg-preview.png" alt="Trendymates Award Logo" className="h-8 w-auto filter brightness-0 invert mr-3" />
+              <img src="/public/1000098173-removebg-preview.png" alt="Trendymates Award Logo" className="h-8 w-auto filter brightness-0 invert mr-3" />
               <span className="text-xl font-bold bg-gradient-to-r from-red-400 to-amber-400 bg-clip-text text-transparent">
                 Trendymates Award 2025
               </span>

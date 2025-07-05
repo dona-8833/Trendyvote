@@ -3,12 +3,13 @@ import { browserSessionPersistence, getAuth, setPersistence } from "firebase/aut
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyD58PPe3CwB1SURHx2kjuP_E5B8r-9AXKk",
-  authDomain: "myfirstfirebaseapp-eb8b3.firebaseapp.com",
-  projectId: "myfirstfirebaseapp-eb8b3",
-  storageBucket: "myfirstfirebaseapp-eb8b3.firebasestorage.app",
-  messagingSenderId: "1064280494580",
-  appId: "1:1064280494580:web:00aa9e7d5225c3132de9a1"
+  apiKey: "AIzaSyD3ieHO-CETVZEvFjsUt0L0LIMZMDsKoy0",
+  authDomain: "vote-c1546.firebaseapp.com",
+  projectId: "vote-c1546",
+  storageBucket: "vote-c1546.firebasestorage.app",
+  messagingSenderId: "819298734873",
+  appId: "1:819298734873:web:a8634450c14650beda2b88",
+  measurementId: "G-CCECC29Z5K"
 };
 
 const app = initializeApp(firebaseConfig);

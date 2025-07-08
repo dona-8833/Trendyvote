@@ -99,7 +99,7 @@ export default function Home() {
           </div>
           <div className="order-1 lg:order-2 flex justify-center">
             <div className="relative">
-              <img src="/IMG-20250625-WA0060(1).jpg" alt="Trendymates Award 2025 Flyer" className="max-w-full h-auto rounded-2xl shadow-2xl shadow-red-500/30 border border-white/10 hover:scale-105 transition-transform duration-500" />
+              <img src="/flyer.jpg" alt="Trendymates Award 2025 Flyer" className="max-w-full h-auto rounded-2xl shadow-2xl shadow-red-500/30 border border-white/10 hover:scale-105 transition-transform duration-500" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-2xl" />
             </div>
           </div>

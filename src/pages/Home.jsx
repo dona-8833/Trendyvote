@@ -37,7 +37,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
-              <img src="/1000098173-removebg-preview.png" alt="Trendymates Award Logo" className="h-12 w-auto filter brightness-0 invert" />
+              <img src="black.png" alt="Trendymates Award Logo" className="h-12 w-auto filter brightness-0 invert" />
             </div>
             <div className="hidden md:flex items-center space-x-4">
     <Link to="/login"       className=" block text-center py-2.5 px-4 border border-white/20 rounded-lg text-white backdrop-blur hover:bg-white/10 transition-all duration-300"
@@ -210,7 +210,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center mb-4 md:mb-0">
-<img src="/1000098173-removebg-preview.png" alt="Trendymates Award Logo" className="h-8 w-auto filter brightness-0 invert mr-3" />
+<img src="/black.png" alt="Trendymates Award Logo" className="h-8 w-auto filter brightness-0 invert mr-3" />
               <span className="text-xl font-bold bg-gradient-to-r from-red-400 to-amber-400 bg-clip-text text-transparent">
                 Trendymates Award 2025
               </span>

@@ -281,7 +281,9 @@ return (
                   </div>
                 )}
                 <div className="flex-1 min-w-0">
-                  <h3 className="font-semibold text-lg text-white truncate">{candidate.name}</h3>
+                  <h3 className="font-semibold text-base sm:text-lg text-white break-words">
+  {candidate.name}
+</h3>
                   <p className="text-sm text-gray-400 truncate">
                     {candidate.department || ""} {candidate.faculty ? `– ${candidate.faculty}` : ""}
                   </p>

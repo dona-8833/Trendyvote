@@ -146,11 +146,89 @@ export default function VotePage() {
 
   if (!isVotingEnabled) {
     return (
-      <div className="min-h-screen bg-gray-100 flex items-center justify-center p-6">
-        <h2 className="text-center text-red-600 text-xl font-semibold">
-          Voting is currently disabled by the admin. Please check back later.
-        </h2>
-      </div>
+      <section className="py-20 px-4 relative">
+        <div className="absolute inset-0 bg-gradient-to-r from-amber-900/10 to-red-900/10"></div>
+        <div className="max-w-7xl mx-auto relative z-10">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-amber-400 via-red-400 to-amber-500 bg-clip-text text-transparent">
+              Table Reservations
+            </h2>
+            <p className="text-xl text-gray-300 max-w-3xl mx-auto mb-4">
+              Secure your spot at the most prestigious award ceremony of the year
+            </p>
+            <div className="bg-red-900/20 border border-red-500/30 rounded-xl p-4 max-w-2xl mx-auto">
+              <p className="text-red-300 font-semibold text-lg">
+                📅 Event Date: 19th July, 2025
+              </p>
+              <p className="text-yellow-300 font-medium mt-2">
+                ⚠️ Important: Every nominee must secure a table for themselves
+              </p>
+            </div>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+            <div className="bg-black/40 backdrop-blur-md border border-white/10 p-6 rounded-2xl shadow-2xl hover:scale-105 transition-transform duration-300">
+              <img 
+                src="/regular.jpg" 
+                alt="Regular ticket" 
+                className="w-full h-48 object-cover rounded-xl mb-6 shadow-lg"
+              />
+              <h3 className="text-xl font-bold text-white mb-2">Regular</h3>
+              <p className="text-2xl font-bold text-red-400 mb-2">#2,000</p>
+            
+            </div>
+
+            <div className="bg-black/40 backdrop-blur-md border border-white/10 p-6 rounded-2xl shadow-2xl hover:scale-105 transition-transform duration-300">
+              <img 
+                src="/table5.jpg" 
+                alt="Table for 5 ticket" 
+                className="w-full h-48 object-cover rounded-xl mb-6 shadow-lg"
+              />
+              <h3 className="text-xl font-bold text-white mb-2">Table for 5</h3>
+              <p className="text-2xl font-bold text-red-400 mb-2">#15,000</p>
+            
+            </div>
+
+            <div className="bg-black/40 backdrop-blur-md border border-white/10 p-6 rounded-2xl shadow-2xl hover:scale-105 transition-transform duration-300">
+              <img 
+                src="/table10.jpg" 
+                alt="Table for 10 ticket" 
+                className="w-full h-48 object-cover rounded-xl mb-6 shadow-lg"
+              />
+              <h3 className="text-xl font-bold text-white mb-2">Table for 10</h3>
+              <p className="text-2xl font-bold text-red-400 mb-2">#30,000</p>
+              
+            </div>
+
+            <div className="bg-black/40 backdrop-blur-md border border-white/10 p-6 rounded-2xl shadow-2xl hover:scale-105 transition-transform duration-300">
+              <img 
+                src="/premium.jpg" 
+                alt="Premium ticket" 
+                className="w-full h-48 object-cover rounded-xl mb-6 shadow-lg"
+              />
+              <h3 className="text-xl font-bold text-white mb-2">Premium</h3>
+              <p className="text-2xl font-bold text-red-400 mb-2">#50,000</p>
+              
+            </div>
+          </div>
+
+          <div className="bg-black/40 backdrop-blur-md border border-white/10 p-8 rounded-2xl shadow-2xl max-w-4xl mx-auto">
+
+            <div className="mt-6 text-center">
+              <a
+  href="https://wa.me/+2348130845336"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="bg-gradient-to-r from-red-600 to-amber-600 hover:from-red-700 hover:to-amber-700 text-white font-bold px-12 py-4 text-lg rounded-full transition-all duration-300 hover:shadow-2xl hover:shadow-red-500/50 hover:scale-110 inline-block text-center"
+>
+  🎫 Reserve Your Table
+</a>
+
+            </div>
+          </div>
+        </div>
+      </section>
+                
     );
   }
 
